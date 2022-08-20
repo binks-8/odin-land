@@ -1,0 +1,89 @@
+*{
+    background-color: #1F2937;
+    color: white;
+}
+
+.header{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+     
+}
+
+logo {
+    font-weight: 700;
+    font-size: 30px;
+}
+ul {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    list-style-type: none;
+ }
+
+.left, .right {
+    display: flex;
+    align-content: center;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.item-1 {
+    background-color: #1F2937;
+    color:aliceblue;
+    border: 1px solid red;
+    width: 350px;
+    height: auto;
+}
+
+.item-2 {
+    background-color: darkgrey;
+    border: 1px solid red;
+    width: 350px;
+    height: auto;
+} 
+.item-2 p {
+    background-color: darkgray;
+}
+
+.button {
+  background-color: cornflowerblue;
+  padding: 8px 30px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.box {
+    border: 1px solid blue;
+    max-width: 250px;
+}
+
+.info {
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.epic {
+    height: 500px;
+    background-color: lightgrey;
+}
